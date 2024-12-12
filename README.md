@@ -3,6 +3,7 @@
 Getting Started 
 
 Link to the dataset - https://data.ny.gov/Transportation/MTA-Subway-Turnstile-Usage-Data-2022/k7j9-jnct/about_data
+The other two datasets are in the github repo
 
 # MTA Subway Analysis and Prediction
 
