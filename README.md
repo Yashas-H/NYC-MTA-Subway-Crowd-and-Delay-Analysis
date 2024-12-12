@@ -65,20 +65,20 @@ This repository contains two Jupyter Notebooks, `MTA_subway.ipynb` and `CrowdPre
    ```bash
    git clone <repository-url>
 
-##Install dependency 
+## Install dependency 
 pip install -r requirements.txt
 
 Run the Jupyter Notebook:
 jupyter notebook NYC_MTA_delay.ipynb
 jupyter notebook CrowdPredict.ipynb
 
-Project Structure
-	•	Code Cells: Contain the logic for preprocessing, modeling, and evaluation.
-	•	Markdown Cells: Explain the purpose and approach for each section.
+## Project Structure:
+Code Cells: Contain the logic for preprocessing, modeling, and evaluation.
+Markdown Cells: Explain the purpose and approach for each section.
 
-Future Improvements
-	•	Integration of additional models for better prediction accuracy.
-	•	Visualization enhancements for more intuitive insights.
+## Future Improvements:
+Integration of additional models for better prediction accuracy.
+Visualization enhancements for more intuitive insights.
 
 ## AUTHORS
  JASMITHA, PRAAGNA, YASHAS
