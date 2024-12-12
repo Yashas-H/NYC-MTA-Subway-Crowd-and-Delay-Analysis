@@ -7,8 +7,6 @@ The other two datasets are in the github repo
 
 # MTA Subway Analysis and Prediction
 
-# MTA Subway Analysis and Crowd Prediction
-
 This repository contains two Jupyter Notebooks, `MTA_subway.ipynb` and `CrowdPredict.ipynb`, that collectively focus on analyzing subway data, modeling patterns, and predicting crowd sizes using machine learning.
 
 ---
