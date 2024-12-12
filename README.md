@@ -7,28 +7,47 @@ The other two datasets are in the github repo
 
 # MTA Subway Analysis and Prediction
 
-This repository contains a Jupyter Notebook, `MTA_subway.ipynb`, which analyzes and models subway data to derive insights and make predictions. It leverages Python for data manipulation, machine learning, and visualization.
+# MTA Subway Analysis and Crowd Prediction
 
-## Features
+This repository contains two Jupyter Notebooks, `MTA_subway.ipynb` and `CrowdPredict.ipynb`, that collectively focus on analyzing subway data, modeling patterns, and predicting crowd sizes using machine learning.
 
-1. **Data Preprocessing**:
-   - Handles categorical and numerical data.
-   - Standardizes features using `StandardScaler`.
+---
 
-2. **Machine Learning Models**:
-   - Implements regression and classification models such as:
-     - Logistic Regression
-     - Random Forest Regressor and Classifier
-     - Decision Tree
-     - K-Nearest Neighbors
+## Project Structure
 
-3. **Evaluation Metrics**:
-   - Mean Squared Error (MSE)
-   - Mean Absolute Error (MAE)
-   - R-squared score (R²)
+### 1. **`MTA_subway.ipynb`**
+   - Focuses on **subway data preprocessing**, **feature engineering**, and **model training**.
+   - **Machine Learning Models**:
+     - Implements various regression and classification models, including:
+       - Logistic Regression
+       - Random Forest Regressor and Classifier
+       - Decision Tree
+       - K-Nearest Neighbors
+   - **Evaluation Metrics**:
+     - Mean Squared Error (MSE)
+     - Mean Absolute Error (MAE)
+     - R-squared score (R²)
+   - **Visualization**:
+     - Provides insights using scatter plots and other graphical tools.
 
-4. **Visualization**:
-   - Uses `matplotlib` for plotting and analyzing results.
+### 2. **`CrowdPredict.ipynb`**
+   - Focuses on predicting subway crowd sizes.
+   - **Key Features**:
+     - Data preprocessing and feature selection.
+     - Regression modeling to predict crowd sizes.
+   - **Insights**:
+     - Provides visualizations comparing actual versus predicted crowd sizes.
+     - Highlights the model's performance, particularly its effectiveness for smaller crowds.
+   - **Hyperparameter Tuning**:
+     - Despite expectations, no evidence of `GridSearchCV` or explicit hyperparameter tuning was found in this notebook.
+
+### 3. **Tableau Integration**
+   - After generating predictions and processing data in the notebooks, **upload the processed data into Tableau** to create interactive visualizations and dashboards.
+   - Tableau will be used to:
+     - Visualize trends and patterns in subway crowd data.
+     - Generate detailed, user-friendly graphs for further analysis.
+
+---
 
 ## Dependencies
 
@@ -38,6 +57,9 @@ This repository contains a Jupyter Notebook, `MTA_subway.ipynb`, which analyzes 
   - numpy
   - scikit-learn
   - matplotlib
+- Tableau (for visualization)
+
+---
 
 ## How to Use
 
@@ -49,7 +71,8 @@ This repository contains a Jupyter Notebook, `MTA_subway.ipynb`, which analyzes 
 pip install -r requirements.txt
 
 Run the Jupyter Notebook:
-jupyter notebook MTA_subway.ipynb
+jupyter notebook NYC_MTA_delay.ipynb
+jupyter notebook CrowdPredict.ipynb
 
 Project Structure
 	•	Code Cells: Contain the logic for preprocessing, modeling, and evaluation.
