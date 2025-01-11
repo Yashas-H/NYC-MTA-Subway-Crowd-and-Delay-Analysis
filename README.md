@@ -3,12 +3,12 @@
 Problem Statement- 
 The NYC subway system is the backbone of the city and an essential part of the 8 million New Yorkers daily commute. Delays, crimes, train breakdowns are a frequent occurrence which is a hindrance to the commuters' experience. This project aims to understand the transit patterns of the MTA system including train delays, train efficiency, identifying peak hours during weekdays and weekends and deduce suggestions based on data computed.
 
-OBJECTIVES:
-• Commute Patterns: Analysis of historical data of MTA subway trains in the city including daily, weekly, and monthly commuter trends to help us identify peak travel hours, frequency of trains during peak hours, high traffic train stations, and service bottlenecks.
-• Delay Analysis: Analyze the frequency of train delays, identify train stations with the most delays and the impact it has on commuter experience based on historical delay patterns, weather conditions, crimes and other factors.
-• MTA service optimization: Evaluate the efficiency of subway schedules and propose improvements in train frequency during peak hours, assess re-routing pathways during emergencies or delays, suggest ways to reduce maintenance time
-• Traffic Management: Reduce train traffic in train stations which causes unnecessary delays and has a ripple effect on the train schedule. Suggest methods to reduce traffic by optimizing train paths for crowded stations.
-• Infrastructure Maintenance: Analyze maintenance logs and delay reasons to identify common causes of failures or disruptions and prioritize critical repairs or upgrades.
+OBJECTIVES:  
+• Commute Patterns: Analysis of historical data of MTA subway trains in the city including daily, weekly, and monthly commuter trends to help us identify peak travel hours, frequency of trains during peak hours, high traffic train stations, and service bottlenecks.  
+• Delay Analysis: Analyze the frequency of train delays, identify train stations with the most delays and the impact it has on commuter experience based on historical delay patterns, weather conditions, crimes and other factors.  
+• MTA service optimization: Evaluate the efficiency of subway schedules and propose improvements in train frequency during peak hours, assess re-routing pathways during emergencies or delays, suggest ways to reduce maintenance time  
+• Traffic Management: Reduce train traffic in train stations which causes unnecessary delays and has a ripple effect on the train schedule. Suggest methods to reduce traffic by optimizing train paths for crowded stations.  
+• Infrastructure Maintenance: Analyze maintenance logs and delay reasons to identify common causes of failures or disruptions and prioritize critical repairs or upgrades.  
 
 Getting Started 
 
